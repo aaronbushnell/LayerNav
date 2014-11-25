@@ -24,7 +24,7 @@
 
       $(window).on('resize', viewportBounce);
 
-      base.$el.addClass('tiny-nav');
+      base.$el.addClass('layer-nav');
     };
 
     base.isMobile = function () {
@@ -48,11 +48,11 @@
     };
 
     base.addMobileToggle = function () {
-      if (base.options.toggleButton === '.js-tiny-nav-toggle') {
-        base.$el.prepend('<a class="js-tiny-nav-toggle">' + base.options.toggleButtonText + '</a>');
+      if (base.options.toggleButton === '.js-layer-nav-toggle') {
+        base.$el.prepend('<a class="js-layer-nav-toggle">' + base.options.toggleButtonText + '</a>');
       }
 
-      $(base.options.toggleButton).addClass('tiny-nav-toggle');
+      $(base.options.toggleButton).addClass('layer-nav-toggle');
     };
 
     base.addExpandIcons = function () {
@@ -125,13 +125,13 @@
 
   $.app.layernav.defaultOptions = {
     lgWidth: 500,
-    toggleButton: '.js-tiny-nav-toggle',
+    toggleButton: '.js-layer-nav-toggle',
     toggleButtonText: 'Menu',
     expandIcons: false,
     expandIconsEl: 'span'
   };
 
-  $.fn.layernav = function (options) {
+  $.fn.layerNav = function (options) {
     return this.each(function () {
       (new $.app.layernav(this, options));
     });
