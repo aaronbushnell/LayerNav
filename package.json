@@ -1,6 +1,6 @@
 {
   "name": "layernav",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A small, jQuery-powered navigation menu for mobile and up",
   "main": "layernav.js",
   "scripts": {
