@@ -1,0 +1,21 @@
+.layer-nav.is-desktop .layer-nav-toggle,
+.layer-nav.is-desktop .expand-icon {
+  display: none;
+}
+
+.layer-nav.is-mobile ul {
+  display: none;
+}
+
+.layer-nav.is-mobile ul.open-menu {
+  display: block;
+}
+
+.layer-nav.is-mobile li {
+  position: relative;
+}
+
+.layer-nav.is-mobile li .expand-icon {
+  cursor: pointer;
+  display: inline-block;
+}

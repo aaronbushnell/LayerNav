@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LayerNav</title>
+  <link rel="stylesheet" href="/layernav.css">
+</head>
+<body>
+  <div class="js-main-nav">
+    <ul>
+      <li><a href="#">Lorem ipsum dolor</a></li>
+      <li><a href="#">Lorem ipsum dolor</a>
+        <ul>
+          <li><a href="#">Ipsum dolor sit</a></li>
+          <li><a href="#">Ipsum dolor sit</a>
+            <ul>
+              <li><a href="#">Ipsum dolor sit</a></li>
+              <li><a href="#">Ipsum dolor sit</a></li>
+              <li><a href="#">Ipsum dolor sit</a></li>
+              <li><a href="#">Ipsum dolor sit</a></li>
+              <li><a href="#">Ipsum dolor sit</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Ipsum dolor sit</a></li>
+          <li><a href="#">Ipsum dolor sit</a></li>
+          <li><a href="#">Ipsum dolor sit</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Lorem ipsum dolor</a></li>
+      <li><a href="#">Lorem ipsum dolor</a></li>
+      <li><a href="#">Lorem ipsum dolor</a></li>
+    </ul>
+  </div>
+
+  <!-- build:js /libs/jquery.js -->
+  <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+  <!-- endbuild -->
+  <script src="/layernav.js"></script>
+  <script>
+    $('.js-main-nav').layerNav();
+  </script>
+</body>
+</html>
