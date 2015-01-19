@@ -77,7 +77,7 @@
       $clickedLink = $(this);
       $childMenu = $clickedLink.siblings('ul');
 
-      if (!base.options.expandIcons) {
+      if (!base.options.expandIcons && base.isMobile()) {
         e.preventDefault();
         base.openMenu($childMenu);
       } else {
