@@ -1,0 +1,16 @@
+{
+    "name": "layernav",
+    "repo": "aaronbushnell/LayerNav",
+    "description": "A small, jQuery-powered navigation menu for mobile and up",
+    "version": "1.0.4",
+    "dependencies": {
+        "component/jquery": "*"
+    },
+    "development": {},
+    "scripts": {
+        "dist/layernav.js": "layernav.js"
+    },
+    "styles": {
+        "dist/layernav.css": "layernav.css"
+    }
+}
