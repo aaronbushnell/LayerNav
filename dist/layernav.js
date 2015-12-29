@@ -28,7 +28,7 @@
     };
 
     base.isMobile = function () {
-      windowWidth = $(window).outerWidth();
+      windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
       if (windowWidth < base.options.lgWidth) {
         return true;
